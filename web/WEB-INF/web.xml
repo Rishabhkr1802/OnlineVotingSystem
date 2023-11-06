@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list>
+        <welcome-file>Index.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>Admin Login</servlet-name>
+        <servlet-class>com.login.AdminLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Admin Logout</servlet-name>
+        <servlet-class>com.login.AdminLogout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Voter Login</servlet-name>
+        <servlet-class>com.login.VoterLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Voter Logout</servlet-name>
+        <servlet-class>com.login.VoterLogout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Contact Us</servlet-name>
+        <servlet-class>com.register.AddContactPerson</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Exit ContactPerson</servlet-name>
+        <servlet-class>com.register.ExitContactPerson</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Register Voter</servlet-name>
+        <servlet-class>com.register.RegisterVoter</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Register Candidate</servlet-name>
+        <servlet-class>com.register.RegisterCandidate</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Candidate Login</servlet-name>
+        <servlet-class>com.login.CandidateLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Candidate Logout</servlet-name>
+        <servlet-class>com.login.CandidateLogout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Register Party</servlet-name>
+        <servlet-class>com.register.RegisterParty</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>View Party</servlet-name>
+        <servlet-class>com.view.ViewParty</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>View Voter</servlet-name>
+        <servlet-class>com.view.ViewVoter</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>View Candidate</servlet-name>
+        <servlet-class>com.view.ViewCandidate</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Admin Login</servlet-name>
+        <url-pattern>/AdminLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Admin Logout</servlet-name>
+        <url-pattern>/AdminLogout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Voter Login</servlet-name>
+        <url-pattern>/VoterLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Voter Logout</servlet-name>
+        <url-pattern>/VoterLogout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Contact Us</servlet-name>
+        <url-pattern>/Suggestion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Exit ContactPerson</servlet-name>
+        <url-pattern>/ExitContactPerson</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Register Voter</servlet-name>
+        <url-pattern>/RegisterVoter</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Register Candidate</servlet-name>
+        <url-pattern>/RegisterCandidate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Candidate Login</servlet-name>
+        <url-pattern>/CandidateLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Candidate Logout</servlet-name>
+        <url-pattern>/CandidateLogout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Register Party</servlet-name>
+        <url-pattern>/RegisterParty</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>View Party</servlet-name>
+        <url-pattern>/ViewParty</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>View Voter</servlet-name>
+        <url-pattern>/ViewVoter</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>View Candidate</servlet-name>
+        <url-pattern>/ViewCandidate</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

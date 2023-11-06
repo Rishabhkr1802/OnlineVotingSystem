@@ -1,0 +1,24 @@
+.style{
+            background-color: black;
+            color: yellow;
+            border: solid 1px white;
+            border-radius: 15px;
+            margin: 8px;
+        }
+        .Date{
+            text-align: left;
+            font-size: 20px;
+        }
+        .Screen{
+            text-align: right;
+            font-family: cooper; 
+            font-size: 20px;
+        }
+        .Date,.Screen{
+            display: inline-block;
+            margin-left: 13pc;
+        }
+       .Screen a:hover{
+            color: red;
+            text-decoration: underline;
+        }

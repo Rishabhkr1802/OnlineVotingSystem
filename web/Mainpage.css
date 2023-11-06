@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(to bottom,orange,white,green);
+    background-repeat: no-repeat;
+    height: 38pc;
+}
+.Main_Container{
+    text-align: center;
+    margin: 100px;
+    color: white;
+    text-shadow: 3px 3px 4px black,-2px -2px 3px black;
+    font-size: 35px;
+}
+#Title{
+    font-family: algerian;
+    color: salmon;
+    font-size: 35px;
+    text-shadow: 3px 4px 5px greenyellow,-3px -4px 5px yellow;
+    margin: -200px;
+    
+}
+#Title :hover{
+    color: aqua;
+    text-shadow: 4px 4px 6px black,-4px -4px 6px black;
+    font-size: 100px;
+}
+#Title1{
+    font-size: 80px;
+    color: green;
+    text-shadow: 3px 8px 5px greenyellow,-3px -4px 5px orange,4px 10px 5px grey;
+}
+a{
+    background-color: navy;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 4px 4px 6px red;
+}
+a:hover{
+    background: linear-gradient(to right,orange,white,green);
+    color: white;
+    box-shadow: 10px 5px 6px orange,-10px -5px 6px green;
+    font-size: 40px;
+     
+}
