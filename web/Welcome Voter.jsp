@@ -57,8 +57,8 @@
     <body>
         <%
             response.setHeader("Cache-Control","no-cache, no-store, must-revalidate");
-                if(session.getAttribute("voteruserpass")==null){
-                       session.getAttribute("voteruserpass");
+                if(session.getAttribute("voterusername")==null){
+                       session.getAttribute("voterusername");
                        response.sendRedirect("Homepage.jsp");
                 }
         

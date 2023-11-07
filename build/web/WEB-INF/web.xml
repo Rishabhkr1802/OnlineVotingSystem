@@ -4,7 +4,7 @@
         <welcome-file>Homepage.jsp</welcome-file>
     </welcome-file-list>
     <servlet>
-        <servlet-name>Admin Login</servlet-name>
+        <servlet-name>AdminLogin</servlet-name>
         <servlet-class>com.login.AdminLogin</servlet-class>
     </servlet>
     <servlet>
@@ -36,7 +36,7 @@
         <servlet-class>com.register.RegisterCandidate</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>Candidate Login</servlet-name>
+        <servlet-name>CandidateLogin</servlet-name>
         <servlet-class>com.login.CandidateLogin</servlet-class>
     </servlet>
     <servlet>
@@ -61,7 +61,7 @@
     </servlet>
     
     <servlet-mapping>
-        <servlet-name>Admin Login</servlet-name>
+        <servlet-name>AdminLogin</servlet-name>
         <url-pattern>/AdminLogin</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
@@ -93,7 +93,7 @@
         <url-pattern>/RegisterCandidate</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>Candidate Login</servlet-name>
+        <servlet-name>CandidateLogin</servlet-name>
         <url-pattern>/CandidateLogin</url-pattern>
     </servlet-mapping>
     <servlet-mapping>

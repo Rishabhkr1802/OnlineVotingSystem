@@ -42,7 +42,7 @@
                     <label for="candId">Candidate Id : -</label>
                     <input type="text" name="candid" size="60" placeholder="Enter  e-mail Id" ><br/><br/>
                     <label for="pass">Password : -</label>
-                    <input type="password" name="pass" size="60" placeholder="Password" ><br/><br/>
+                    <input type="password" name="candpass" size="60" placeholder="Password" ><br/><br/>
                     <input type="submit" value="Login">
                 </form>
             </div>

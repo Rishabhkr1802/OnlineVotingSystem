@@ -57,8 +57,8 @@
     <body>
         <%
             response.setHeader("Cache-Control","no-cache, no-store, must-revalidate");
-                if(session.getAttribute("Candemailpass")==null){
-                       session.getAttribute("Candemailpass");
+                if(session.getAttribute("candidateusername")==null){
+                       session.getAttribute("candidateusername");
                        response.sendRedirect("Homepage.jsp");
                 }
         %>
