@@ -21,7 +21,7 @@ public class CandidateLogin extends HttpServlet {
             session.setAttribute("candidateusername", Username);
             response.sendRedirect("Welcome Candidate.jsp");
         } else {
-            response.sendRedirect("Homepage.jsp");
+            response.sendRedirect("candidate Login.jsp");
         }
     }
 

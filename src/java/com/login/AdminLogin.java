@@ -21,7 +21,7 @@ public class AdminLogin extends HttpServlet {
             session.setAttribute("adminuserpass", Username);
             response.sendRedirect("Welcome Admin.jsp");
         } else {
-            response.sendRedirect("AdminLogin.jsp");
+            response.sendRedirect("Admin Login.jsp");
         }
     }
 

@@ -38,7 +38,7 @@
         <div class="Login">
             <div class="Container">
                 <h1>Admin Login</h1>
-                <form action="AdminLogin" method="post">
+                <form action="Admin Login" method="post">
                     <label for="adminId">Admin Id : -</label>
                     <input type="text" name="adminuser" size="60" placeholder="Username or E-mail"/><br/><br/>
                     <label for="pass">Password : -</label>

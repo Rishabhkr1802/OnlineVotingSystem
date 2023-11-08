@@ -12,7 +12,7 @@ public class LoginDAO {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ovs?zeroDateTimeBehavior=convertToNull", "root", "root");
-            PreparedStatement st = con.prepareStatement("Select * from admin where username = ? and password = ?");
+            PreparedStatement st = con.prepareStatement("select * from admin where username = ? and password = ?");
             st.setString(1, user);
             st.setString(2, pass);
             ResultSet rs = st.executeQuery();

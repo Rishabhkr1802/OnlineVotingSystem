@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Online Voting System</title>
         <link rel="stylesheet" href="Stylesheet.css" type="text/css"/>
         <style>
             .Aside_l,.Aside_r{
