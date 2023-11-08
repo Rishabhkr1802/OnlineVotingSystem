@@ -5,9 +5,7 @@
         <group>
             <file>file:/E:/OnlineVotingSystem/src/java/com/login/AdminLogin.java</file>
             <file>file:/E:/OnlineVotingSystem/web/Admin%20Login.jsp</file>
-            <file>file:/E:/OnlineVotingSystem/src/java/com/login/CandidateLogin.java</file>
             <file>file:/E:/OnlineVotingSystem/web/WEB-INF/web.xml</file>
-            <file>file:/E:/OnlineVotingSystem/web/Candidate%20Login.jsp</file>
             <file>file:/E:/OnlineVotingSystem/src/java/com/db/LoginDAO.java</file>
         </group>
     </open-files>

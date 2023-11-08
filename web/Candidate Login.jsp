@@ -38,7 +38,7 @@
         <div class="Login">
             <div class="Container">
                 <h1>Candidate Login</h1>
-                <form action="Candidate Login" method="post">
+                <form action="CandidateLogin" method="post">
                     <label for="candId">Candidate Id : -</label>
                     <input type="text" name="candid" size="60" placeholder="Enter  e-mail Id" ><br/><br/>
                     <label for="pass">Password : -</label>
