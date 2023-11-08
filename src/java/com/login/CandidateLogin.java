@@ -16,7 +16,7 @@ public class CandidateLogin extends HttpServlet {
         String Password = request.getParameter("candpass");
 
         LoginDAO dao = new LoginDAO();
-        if (dao.check(Username, Password)) {
+        if (dao.checkCandidate(Username, Password)) {
             HttpSession session = request.getSession();
             session.setAttribute("candidateusername", Username);
             response.sendRedirect("Welcome Candidate.jsp");

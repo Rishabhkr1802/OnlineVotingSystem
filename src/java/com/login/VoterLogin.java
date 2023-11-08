@@ -16,12 +16,12 @@ public class VoterLogin extends HttpServlet {
         String Password = request.getParameter("voterpass");
 
         LoginDAO dao = new LoginDAO();
-        if (dao.check(Username, Password)) {
+        if (dao.checkVoter(Username, Password)) {
             HttpSession session = request.getSession();
             session.setAttribute("voterusername", Username);
             response.sendRedirect("Welcome Voter.jsp");
         } else {
-            response.sendRedirect("Homepage.jsp");
+            response.sendRedirect("VoterLogin.jsp");
         }
     }
 

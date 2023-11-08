@@ -14,9 +14,9 @@ public class AdminLogin extends HttpServlet {
 
         String Username = request.getParameter("adminuser");
         String Password = request.getParameter("adminpass");
-
+        
         LoginDAO dao = new LoginDAO();
-        if (dao.check(Username, Password)) {
+        if (dao.checkAdmin(Username, Password)) {
             HttpSession session = request.getSession();
             session.setAttribute("adminuserpass", Username);
             response.sendRedirect("Welcome Admin.jsp");
